@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(motivate.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.timer-container {
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+#timer {
+    font-size: 3cm;
+    border-radius: 50%;
+    background-color: rgba(230, 227, 227, 0.7);
+    padding: 50px;
+    display: inline-block;
+    color: #ffffff;
+    
+}
+
+#date {
+    font-size: 0.5cm;
+    color: #ffffff;
+}
